@@ -1,161 +1,190 @@
-# Placement Readiness & Skill Gap Analytics
+# 📊 Placement Readiness & Skill Gap Analytics
 
-An interactive **Excel-based data analytics project** designed to evaluate student placement readiness, analyze job applications and hiring outcomes, and identify skill gaps between students and job requirements.
+An interactive **Excel-based data analytics project** developed during a hackathon to analyze student performance, placement outcomes, application trends, and job-market requirements.
 
-The project combines student performance, assessments, job postings, applications, interview scores, and required skills into an analytical framework for understanding placement outcomes and recommending areas for improvement.
+The project transforms multiple datasets into interactive dashboards that provide insights into **student placement readiness, batch performance, application outcomes, and employer skill requirements**.
 
+---
 
+## 🏆 Hackathon Context
 
-## 📊 Project Overview
+This project was developed as part of a **hackathon**, where the underlying datasets were provided as part of the competition challenge.
 
-The objective of this project is to answer key placement-related questions such as:
+The analysis, dashboard development, KPI creation, data interpretation, and skill-gap analysis were performed as part of the project work.
+
+> **Data Attribution:** The underlying dataset was provided for the hackathon and is included in this repository only where permitted by the competition rules.
+
+---
+
+## 🎯 Project Objective
+
+The primary objective was to use data to understand the relationship between **student performance, placement readiness, job applications, and employer requirements**.
+
+The project aims to answer questions such as:
 
 * How prepared are students for placement opportunities?
-* Which students demonstrate high or low placement readiness?
-* What factors influence placement readiness?
-* How are students performing across assessments and interviews?
-* Which skills are most commonly missing among students?
-* How well do student skills match available job requirements?
-* What insights can help students improve their employability?
+* How does assessment performance vary across batches?
+* What are the application outcomes across different job roles?
+* Which skills are most commonly required by employers?
+* How do student skills compare with job-market requirements?
+* Which areas could benefit from targeted upskilling?
 
+---
 
+## 🛠️ Tools & Skills
 
-## 🛠️ Tools & Technologies
+### Tools
 
-* **Microsoft Excel**
+* Microsoft Excel
 * PivotTables
+* PivotCharts
 * Excel Formulas
-* KPI Analysis
-* Data Cleaning & Transformation
-* Data Visualization
+* Slicers
 * Interactive Dashboards
+
+### Analytical Skills
+
+* Data Analysis
+* KPI Development
+* Exploratory Data Analysis
+* Data Visualization
+* Placement Analytics
 * Skill Gap Analysis
-* Job-Skill Matching
+* Job Market Analysis
+* Performance Analysis
+* Business Intelligence
 
+---
 
+# 📁 Dataset
 
-## 📁 Dataset
+The project uses four primary datasets provided for the hackathon.
 
-The workbook contains four primary datasets:
+| Dataset      | Approx. Records | Purpose                                                  |
+| ------------ | --------------: | -------------------------------------------------------- |
+| Students     |            12K+ | Student profiles, education, experience and skill scores |
+| Assessments  |            30K+ | Assessment attempts, scores, results and performance     |
+| Jobs         |            12K+ | Job postings, salary ranges and required skills          |
+| Applications |            30K+ | Applications, statuses, interview scores and responses   |
 
-| Dataset      | Records | Description                                                      |
-| ------------ | ------: | ---------------------------------------------------------------- |
-| Students     | 12,000+ | Student profiles, education, experience and skill scores         |
-| Assessments  | 30,000+ | Assessment attempts, scores, results and performance             |
-| Jobs         | 12,000+ | Job postings, salaries, locations and required skills            |
-| Applications | 30,000+ | Student applications, status, interview scores and response time |
+These datasets were analyzed together to understand student performance and placement-related outcomes.
 
-These datasets are combined to create analytical views for placement readiness and skill-gap identification.
+---
 
+# 📊 Dashboard & Analysis
 
+The project contains four major analytical views.
 
-## 🧩 Project Structure
+---
 
-### 1. Student Analysis
+## 1. Placement Analysis
 
-The student dataset contains information including:
+The **Placement Analysis** dashboard provides a student-level view of placement performance.
 
-* Student ID
-* Batch
-* Course
-* City
-* Education
-* Experience
+It includes:
+
+* Assessment Score
 * Skill Score
-* Communication Score
-* Mock Interview Average
-* Interview Average
-* Projects Completed
-
-This information is used to understand student profiles and evaluate factors associated with placement readiness.
-
-
-
-### 2. Assessment Analysis
-
-The assessment dataset contains:
-
-* Assessment ID
-* Student ID
-* Assessment Type
-* Assessment Date
-* Score
-* Attempt Number
-* Time Taken
-* Result
-
-Assessment performance is analyzed to understand student preparation and its relationship with overall placement readiness.
-
-
-
-### 3. Job Market Analysis
-
-The jobs dataset contains:
-
-* Job ID
-* Company
-* Job Title
-* Location
-* Work Mode
-* Experience Required
-* Minimum Salary
-* Maximum Salary
-* Required Skills
-* Job Type
-
-This allows the project to analyze the skills and requirements currently demanded by employers.
-
-
-
-### 4. Application Analysis
-
-The applications dataset tracks:
-
-* Student ID
-* Job ID
-* Job Title
-* Application Date
-* Application Status
-* Interview Score
-* Days to Response
-
-This helps evaluate application outcomes and hiring performance.
-
-
-
-# 📈 Dashboard
-
-The project includes an interactive Excel dashboard designed to provide a high-level view of placement performance.
-
-### Dashboard Preview
-
-![Placement Dashboard](dashboard/PlacementAssessment.png)
-
-The dashboard brings together key placement metrics and visualizations to make the analysis easier to understand and explore.
-
-
-
-# 🎯 Placement Readiness Analysis
-
-A dedicated **PlacementReadiness** analysis combines multiple performance indicators into a readiness score.
-
-The analysis considers factors such as:
-
-* Average Assessment Score
+* Current Placement Status
 * Number of Applications
-* Interview Score
-* Overall Readiness Score
-* Readiness Status
+* Subject-wise Assessment Analysis
+* Placement Status Distribution
+* Application Trends
+* Student-level filtering
 
-Students can then be categorized according to their overall placement readiness.
+![Placement Analysis](dashboard/PlacementAnalysis.png)
 
-![Placement Readiness](dashboard/placement_readiness.png)
+### What it helps answer
 
+* How is an individual student performing?
+* What is the student's current placement status?
+* How many jobs has the student applied for?
+* How do assessment and skill scores compare?
+* What does the student's application activity look like?
 
+---
+
+## 2. Batch Analysis
+
+The **Batch Analysis** dashboard compares student performance and placement outcomes across different batches.
+
+It analyzes:
+
+* Average Assessment Scores
+* Highest and Lowest Scores
+* Total Placements
+* Skill-wise Performance
+* Average Readiness Scores
+* Placement Status by Batch
+* Batch-level trends
+
+![Batch Analysis](dashboard/BatchAnalysis.png)
+
+### What it helps answer
+
+* Which batches perform better academically?
+* How does assessment performance vary across batches?
+* Which batches have higher placement outcomes?
+* How does readiness change across batches?
+* Which skills show stronger or weaker performance?
+
+---
+
+## 3. Application Analysis
+
+The **Application Analysis** dashboard focuses on job applications and their outcomes across different job roles.
+
+It tracks:
+
+* Applications
+* Assessments
+* Interviews
+* Rejections
+* Selections
+* Shortlisted Candidates
+* Job Roles
+
+![Application Analysis](dashboard/ApplicationAnalysis.png)
+
+### What it helps answer
+
+* Which job roles receive the most applications?
+* What are the outcomes of student applications?
+* Which roles have higher selection activity?
+* How do application outcomes differ across job roles?
+
+---
+
+## 4. Job Market Analysis
+
+The **Job Market Analysis** dashboard focuses on employer requirements and compensation.
+
+It analyzes:
+
+* Highest CTC Offered
+* Lowest CTC Offered
+* Experience Requirements
+* Skill Requirements
+* Statistics
+* Excel
+* SQL
+* Power BI
+* Python
+
+![Job Market Analysis](dashboard/JobMarketAnalysis.png)
+
+### What it helps answer
+
+* Which job roles offer higher compensation?
+* What skills are most commonly required?
+* How do skill requirements differ by job role?
+* What does the current job market demand from candidates?
+
+---
 
 # 🔍 Skill Gap Analysis
 
-The **Skill Gap** analysis compares student capabilities against skills required by job opportunities.
+The project also includes a dedicated **Skill Gap analysis** comparing student capabilities with skills demanded by available job opportunities.
 
 The analysis focuses on skills such as:
 
@@ -165,39 +194,64 @@ The analysis focuses on skills such as:
 * Power BI
 * Statistics
 
-This makes it possible to identify where students are missing skills required for available job opportunities.
+This helps identify areas where students may require additional training to improve their employability and job-match potential.
 
-![Skill Gap Analysis](dashboard/skill_gap_analysis.png)
+The detailed skill-gap analysis is available within the Excel workbook.
 
+---
 
-
-# 💡 Key Insights
+# 💡 Key Business Insights
 
 The analysis can be used to identify:
 
-* Students requiring additional preparation before placement.
-* Skills with the largest gaps between student capabilities and employer requirements.
-* Relationships between assessment performance and placement readiness.
-* Differences in interview performance across students.
-* Job opportunities requiring commonly available or scarce skills.
-* Areas where targeted upskilling could improve job-match potential.
+* Differences in assessment and skill performance across batches.
+* Placement readiness patterns among students.
+* Application trends across different job roles.
+* Selection and rejection patterns.
+* Skills commonly demanded by employers.
+* Salary differences across job roles.
+* Potential gaps between student capabilities and market requirements.
 
+---
 
+# 📈 Business Value
 
-# 📌 Business Value
+The project demonstrates how placement-related data can support **data-driven decision making** for educational institutions, placement teams, and training providers.
 
-This project demonstrates how organizations such as universities, placement cells, and training providers can use data to:
+Potential applications include:
 
-1. Identify students who need additional preparation.
-2. Understand employer skill requirements.
-3. Detect common skill gaps.
-4. Improve student-job matching.
-5. Track application and interview outcomes.
-6. Make data-driven decisions about training and upskilling programs.
+1. Identifying students who need additional placement preparation.
+2. Monitoring batch-level performance.
+3. Understanding application and hiring outcomes.
+4. Identifying high-demand technical skills.
+5. Designing targeted upskilling programs.
+6. Improving student-to-job matching.
 
+---
 
+# 📂 Repository Structure
 
-# 📂 Workbook Structure
+```text
+placement-readiness-skill-gap-analytics/
+│
+├── README.md
+│
+├── dashboard/
+│   ├── placement_analysis.png
+│   ├── batch_analysis.png
+│   ├── application_analysis.png
+│   └── job_market_analysis.png
+│
+├── excel/
+│   └── Placement_Readiness_Skill_Gap_Analytics.xlsx
+│
+└── docs/
+    └── project_overview.pdf
+```
+
+---
+
+# 📘 Excel Workbook Structure
 
 The Excel workbook contains the following sheets:
 
@@ -212,35 +266,34 @@ Skill Gap
 PlacementReadiness
 ```
 
-The `P1_` sheets contain the primary datasets, while the remaining sheets contain analytical calculations, skill-gap analysis, placement-readiness calculations, and the final dashboard.
+The `P1_` sheets contain the primary datasets, while the remaining sheets contain analysis, dashboards, skill-gap calculations, and placement-readiness analysis.
 
+---
 
+# 🚀 How to Explore the Project
 
-# 🚀 How to Use
+1. Open the Excel workbook from the `excel` folder.
+2. Start with the `DASHBOARD` sheet.
+3. Explore the student-level **Placement Analysis**.
+4. Review the **Batch Analysis** to compare performance.
+5. Explore the **Application Analysis** to understand application outcomes.
+6. Review the **Job Market Analysis** to understand employer requirements.
+7. Explore the `Skill Gap` and `PlacementReadiness` sheets for detailed analysis.
 
-1. Download the Excel workbook from the `excel` folder.
-2. Open the workbook in Microsoft Excel.
-3. Navigate to the `DASHBOARD` sheet.
-4. Use the available filters/slicers to explore the analysis.
-5. Review the `Analysis`, `Skill Gap`, and `PlacementReadiness` sheets for detailed calculations.
+---
 
+# 📌 Skills Demonstrated
 
+**Excel & BI:**
+PivotTables • PivotCharts • Slicers • KPI Dashboards • Data Visualization
 
-# 📚 Skills Demonstrated
+**Data Analytics:**
+Data Analysis • Performance Analysis • Placement Analytics • Skill Gap Analysis
 
-**Data Analysis:**
-Data Cleaning • Exploratory Data Analysis • KPI Development • Business Analysis
+**Business Analytics:**
+Job Market Analysis • Application Analysis • Business Insights • Data-Driven Decision Making
 
-**Excel:**
-PivotTables • Formulas • Interactive Dashboards • Data Visualization • Slicers
-
-**Analytics:**
-Placement Analytics • Skill Gap Analysis • Job Matching • Performance Analysis
-
-**Business Intelligence:**
-KPI Tracking • Dashboard Design • Data-Driven Decision Making
-
-
+---
 
 ## 👨‍💻 Author
 
@@ -248,4 +301,4 @@ KPI Tracking • Dashboard Design • Data-Driven Decision Making
 
 Data Analytics | SQL | Python | Excel | Business Intelligence
 
-[LinkedIn](YOUR_LINKEDIN_URL) • [GitHub](YOUR_GITHUB_PROFILE_URL)
+[GitHub](YOUR_GITHUB_PROFILE_URL) • [LinkedIn](YOUR_LINKEDIN_URL)
