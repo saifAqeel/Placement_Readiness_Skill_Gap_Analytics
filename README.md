@@ -301,4 +301,4 @@ Job Market Analysis • Application Analysis • Business Insights • Data-Driv
 
 Data Analytics | SQL | Python | Excel | Business Intelligence
 
-[GitHub](YOUR_GITHUB_PROFILE_URL) • [LinkedIn](YOUR_LINKEDIN_URL)
+[GitHub](https://github.com/saifAqeel) • [LinkedIn](https://www.linkedin.com/in/saif-aqeel-ab8800223/)
