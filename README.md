@@ -4,7 +4,7 @@ An interactive **Excel-based data analytics project** designed to evaluate stude
 
 The project combines student performance, assessments, job postings, applications, interview scores, and required skills into an analytical framework for understanding placement outcomes and recommending areas for improvement.
 
----
+
 
 ## 📊 Project Overview
 
@@ -18,7 +18,7 @@ The objective of this project is to answer key placement-related questions such 
 * How well do student skills match available job requirements?
 * What insights can help students improve their employability?
 
----
+
 
 ## 🛠️ Tools & Technologies
 
@@ -32,7 +32,7 @@ The objective of this project is to answer key placement-related questions such 
 * Skill Gap Analysis
 * Job-Skill Matching
 
----
+
 
 ## 📁 Dataset
 
@@ -47,7 +47,7 @@ The workbook contains four primary datasets:
 
 These datasets are combined to create analytical views for placement readiness and skill-gap identification.
 
----
+
 
 ## 🧩 Project Structure
 
@@ -69,7 +69,7 @@ The student dataset contains information including:
 
 This information is used to understand student profiles and evaluate factors associated with placement readiness.
 
----
+
 
 ### 2. Assessment Analysis
 
@@ -86,7 +86,7 @@ The assessment dataset contains:
 
 Assessment performance is analyzed to understand student preparation and its relationship with overall placement readiness.
 
----
+
 
 ### 3. Job Market Analysis
 
@@ -105,7 +105,7 @@ The jobs dataset contains:
 
 This allows the project to analyze the skills and requirements currently demanded by employers.
 
----
+
 
 ### 4. Application Analysis
 
@@ -121,7 +121,7 @@ The applications dataset tracks:
 
 This helps evaluate application outcomes and hiring performance.
 
----
+
 
 # 📈 Dashboard
 
@@ -133,7 +133,7 @@ The project includes an interactive Excel dashboard designed to provide a high-l
 
 The dashboard brings together key placement metrics and visualizations to make the analysis easier to understand and explore.
 
----
+
 
 # 🎯 Placement Readiness Analysis
 
@@ -151,7 +151,7 @@ Students can then be categorized according to their overall placement readiness.
 
 ![Placement Readiness](dashboard/placement_readiness.png)
 
----
+
 
 # 🔍 Skill Gap Analysis
 
@@ -169,7 +169,7 @@ This makes it possible to identify where students are missing skills required fo
 
 ![Skill Gap Analysis](dashboard/skill_gap_analysis.png)
 
----
+
 
 # 💡 Key Insights
 
@@ -182,7 +182,7 @@ The analysis can be used to identify:
 * Job opportunities requiring commonly available or scarce skills.
 * Areas where targeted upskilling could improve job-match potential.
 
----
+
 
 # 📌 Business Value
 
@@ -195,7 +195,7 @@ This project demonstrates how organizations such as universities, placement cell
 5. Track application and interview outcomes.
 6. Make data-driven decisions about training and upskilling programs.
 
----
+
 
 # 📂 Workbook Structure
 
@@ -214,7 +214,7 @@ PlacementReadiness
 
 The `P1_` sheets contain the primary datasets, while the remaining sheets contain analytical calculations, skill-gap analysis, placement-readiness calculations, and the final dashboard.
 
----
+
 
 # 🚀 How to Use
 
@@ -224,7 +224,7 @@ The `P1_` sheets contain the primary datasets, while the remaining sheets contai
 4. Use the available filters/slicers to explore the analysis.
 5. Review the `Analysis`, `Skill Gap`, and `PlacementReadiness` sheets for detailed calculations.
 
----
+
 
 # 📚 Skills Demonstrated
 
@@ -240,7 +240,7 @@ Placement Analytics • Skill Gap Analysis • Job Matching • Performance Anal
 **Business Intelligence:**
 KPI Tracking • Dashboard Design • Data-Driven Decision Making
 
----
+
 
 ## 👨‍💻 Author
 
