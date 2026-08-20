@@ -129,7 +129,7 @@ The project includes an interactive Excel dashboard designed to provide a high-l
 
 ### Dashboard Preview
 
-![Placement Dashboard](dashboard/placement_assessment.png)
+![Placement Dashboard](dashboard/PlacementAssessment.png)
 
 The dashboard brings together key placement metrics and visualizations to make the analysis easier to understand and explore.
 
